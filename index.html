@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>敦煌飞天 · 洞窟美育体验</title>
+  <script type="module" crossorigin src="./assets/index-CcfbL7xC.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-yQUBXf0h.css">
+</head>
+<body>
+  <div id="app">
+    <div id="scene-container"></div>
+
+    <div id="loading">
+      <div class="loading-text">正在加载洞窟…</div>
+      <div class="loading-sub">渲染 3D 场景中（约 1-2 秒）</div>
+    </div>
+
+    <div id="hint">🖱️ 点击场景中的造像与飞天，开启讲解</div>
+
+    <aside id="narration-panel">
+      <button id="panel-close" aria-label="关闭">×</button>
+      <div id="panel-era"></div>
+      <h2 id="panel-title"></h2>
+      <div id="panel-body"></div>
+      <button id="panel-next">下一个知识点 →</button>
+    </aside>
+
+    <div id="diag" style="position:fixed;left:8px;top:8px;color:#faa;font-size:11px;font-family:monospace;background:rgba(0,0,0,0.7);padding:8px 12px;border-radius:6px;max-width:340px;line-height:1.5;z-index:99;display:none;pointer-events:none"></div>
+
+    <nav id="tour-nav"></nav>
+  </div>
+</body>
+</html>
